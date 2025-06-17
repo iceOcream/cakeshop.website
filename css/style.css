@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Convergence&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #ffffff;
+  list-style: none;
+  font-family: "Convergence";
+}
+
+header {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #1313135d, #4c3c6280),
+    url("../photo/milada-vigerova-zDtGuxgXfsw-unsplash\ \(1\).jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  padding-top: 30px;
+}
+
+nav {
+  width: 80%;
+  margin: auto;
+  height: 50px;
+  background-color: rgba(245, 245, 245, 0.111);
+  border-radius: 50px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.banner-content {
+  width: 60%;
+  min-height: 70vh;
+  margin: 40px 80px;
+}

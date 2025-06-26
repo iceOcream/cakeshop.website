@@ -3,17 +3,30 @@
     display: block;
     cursor: pointer;
   }
-}
 
-.nav-items {
-  position: absolute;
-  top: 80px;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.603);
-  padding: 30px;
-  gap: 15px;
-  flex-direction: column;
-  border-radius: 30px;
-  /* display: none; */
+  .nav-items {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.919);
+    padding: 30px;
+    gap: 15px;
+    flex-direction: column;
+    border-radius: 30px;
+    transform: scale(0);
+    transition: 0.5s;
+    transform-origin: top right;
+    /* display: none; */
+  }
+
+  .show {
+    transform: scale(1);
+    /* display: block; */
+  }
+
+  .banner-content {
+    width: 100%;
+    padding: 30px 25px;
+  }
 }
